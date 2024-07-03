@@ -1,7 +1,7 @@
 ---
 layout: post
 title: github 블로그 시작하기
-subtitle:   "hello!!"
+subtitle: "깃허브 블로그 만드는 방법"
 date: 2024-07-03
 categories: etc
 tags: daily
@@ -44,7 +44,9 @@ Ruby는 Jekyll의 기본 프로그래밍 언어이며, Ruby Installer를 통해 
 
 ​	[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504153234720.png" alt="ruby" style="zoom:50%;" />
+
+
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223313739.png" alt="image-20240703223313739" style="zoom:50%;" />
 
 
 
@@ -52,7 +54,7 @@ Ruby는 Jekyll의 기본 프로그래밍 언어이며, Ruby Installer를 통해 
 
 Ruby Installer 설치가 완료되었다면, **Ruby Command 창**을 실행.
 
-![ruby](/images/2024-05-04-github 블로그 생성/ruby-1714804576470-6.png)
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223504176.png" alt="image-20240703223504176" style="zoom:50%;" />
 
 
 
@@ -88,25 +90,25 @@ jekyll -v
 
 
 
-Jekyll Theme Page에 가서 원하는 테마를 고르기
+Jekyll Theme Page에 가서 원하는 테마를 고르기! 저는 Monos가 깔끔한 것 같아서 골랐지만 원하는 테마 모두 가능합니다.
 
 
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504154302354.png" alt="image-20240504154302354" style="zoom:67%;" />
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223539294.png" alt="image-20240703223539294" style="zoom:50%;" />
 
 
 
 
 
-이렇게 맘에 드는 테마를 고르면 클릭 후 Homepage로 들어간다.
-
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504154343924.png" alt="image-20240504154343924" style="zoom: 50%;" />
+이렇게 맘에 드는 테마를 고르면 클릭 후 Homepage로 들어간다. 들어가면고른 테마의 github 페이지로 들어가진다.
 
 
 
-홈페이지로 들어가면 고른 테마의 github 페이지로 들어가진다.
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223742106.png" alt="image-20240703223742106" style="zoom:50%;" />
 
-사진처럼 url을 복사한다. 이렇게 복사한 url은 repository를 만드는데 사용한다.
+
+
+해당 페이지에서 깃허브 주소를 사진처럼 복사한다. 이렇게 복사한 url은 repository를 만드는데 사용한다.
 
 
 
@@ -126,13 +128,13 @@ Jekyll Theme Page에 가서 원하는 테마를 고르기
 
 
 
-이제 블로그로 사용한 repository를 만들기 위해서 github에 들어간다!
+이제 블로그로 사용한 repository를 만들기 위해서 내 github에 들어간다!
 
 새로운 레파지토리 생성하기를 누르고 아래 보이는 Import a repository 링크를 클릭하거나 처음부터 import repository를 눌러 생성한다.
 
 
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504154623645.png" alt="image-20240504154623645" style="zoom: 50%;" />
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223807231.png" alt="image-20240703223807231" style="zoom:50%;" />
 
 
 
@@ -142,19 +144,21 @@ Import repository를 클릭한후
 
 
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504154743880.png" alt="image-20240504154743880" style="zoom:67%;" />
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223840113.png" alt="image-20240703223840113" style="zoom:50%;" />
 
 
 
 ⚠️주의사항⚠️
 
-내 Repository name을 적는 칸에는 [본인아이디].github.io을 입력한다.
+내 Repository name을 적는 칸에는 [본인아이디].github.io을 입력한다
 
 **[본인아이디]에는 아무거나 넣을 수 없다!** 꼭 github에 저장된 이름을 사용해야 한다!!
 
+예시로 아이디(Owner)가 hong이면 Repository name은 hong.hithub.io 이여야 한다
 
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504154937364.png" alt="image-20240504154937364" style="zoom:67%;" />
+
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703223955986.png" alt="image-20240703223955986" style="zoom:50%;" />
 
 
 
@@ -197,9 +201,9 @@ git config --global user.email "깃허브이메일"
 
 
 
-등록 후 아까 새로 생성한 Repository url을 복사한다.
+등록 후 방금 새로 생성한 Repository url을 복사한다.
 
-<img src="/images/2024-05-04-github 블로그 생성/image-20240504155624102.png" alt="image-20240504155624102" style="zoom:67%;" />
+<img src="/images/2024-07-03-etc-daily-github 블로그 생성/image-20240703224126408.png" alt="image-20240703224126408" style="zoom:50%;" />
 
 
 
@@ -344,6 +348,8 @@ git commit -m "modify config file"
 //add, commit 한 코드 git에 보내기
 git push origin master
 ```
+
+
 
 
 
