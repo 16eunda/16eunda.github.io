@@ -131,9 +131,9 @@ with open('data_processing1.json', 'w', encoding='utf-8') as outfile:
 
 전처리 결과:
 
+<img src="/images/2024-07-04-openLLM-dialect-learning/image-20240704173732916.png" alt="image-20240704173732916" style="zoom:50%;" />
 
 
-<img src="/images/2024-05-05-openLLM-dialect-learning/image-20240505015507711.png" alt="image-20240505015507711" style="zoom:50%;" />
 
 
 
@@ -163,7 +163,7 @@ with open('data_processing1.json', 'w', encoding='utf-8') as outfile:
 
 
 
-<img src="/images/2024-05-05-openLLM-dialect-learning/image-20240505020502334.png" alt="image-20240505020502334" style="zoom: 25%;" />
+<img src="/images/2024-07-04-openLLM-dialect-learning/image-20240704173809171.png" alt="image-20240704173809171" style="zoom:50%;" />
 
 
 
@@ -227,9 +227,7 @@ data = load_dataset("json", "전처리된 파일 경로.json")
 
 
 
-<img src="/images/2024-05-05-openLLM-dialect-learning/image-20240505015507711.png" alt="image-20240505015507711" style="zoom: 25%;" />
-
-
+<img src="/images/2024-07-04-openLLM-dialect-learning/image-20240704173842247.png" alt="image-20240704173842247" style="zoom: 50%;" />
 
 
 
