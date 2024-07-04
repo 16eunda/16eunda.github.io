@@ -2,8 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               16wjdekdms
-
+title:               ByteNote
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://16wjdekdms.github.io
@@ -44,11 +43,13 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    UA-137374202-1
+# 구글 애널리틱스
+google_analytics:    G-RR63P0ER7P
 
+# 댓글 기능
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus: True
-disqus_shortname:    16wjd
+disqus_shortname:    16wjdekdms 
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2024.07. by 16wjdekdms'
@@ -102,6 +103,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jemoji  # 이모지
 
 exclude:
   - README.md
