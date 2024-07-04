@@ -103,6 +103,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jemoji  # 이모지
 
 exclude:
   - README.md
