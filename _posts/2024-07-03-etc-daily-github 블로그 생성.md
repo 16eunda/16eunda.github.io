@@ -1,6 +1,6 @@
 ---
 layout: post
-title: github 블로그 시작하기
+title: github 블로그 만들기
 subtitle: "깃허브 블로그 만드는 방법"
 date: 2024-07-03
 categories: etc
