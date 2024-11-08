@@ -3,8 +3,8 @@ layout: post
 title: 시간복잡도 구하기
 subtilte:
 date: 2024-07-25
-categories: daily
-tags:
+categories: algorithm
+tags: cs공부
 comments: true
 typora-root-url: ../
 ---
