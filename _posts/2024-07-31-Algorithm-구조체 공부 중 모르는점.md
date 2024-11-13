@@ -35,7 +35,6 @@ bool cmp(Point A, Point B){
 }
 
 int main(){
-	Ralo a[3] = {{1,2}, {1,3}, {0,4}};
 	sort(a, a+3, cmp);
 	for(Ralo A : a) cout << A.a << " : " << A.b << "\n";
 }
