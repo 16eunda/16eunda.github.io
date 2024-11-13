@@ -3,7 +3,7 @@ layout: post
 title: 구인구직 사이트 pick_me 만들기(1)
 subtitle: 아이디어, db 설계
 date: 2024-07-11
-categories: ect
+categories: etc
 tags: daily
 comments: true
 typora-root-url: ../
