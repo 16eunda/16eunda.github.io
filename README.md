@@ -1,2 +1,2 @@
-# test.github.io
-블로그
+# 16eunda.github.io
+기술 블로그
