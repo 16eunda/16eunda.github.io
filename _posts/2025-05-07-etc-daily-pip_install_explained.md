@@ -1,3 +1,15 @@
+---
+layout: post
+title: pip install 원리
+subtilte: pip install 한 줄짜리 명령어의 마법
+date: 2025-05-07
+categories: etc
+tags: 기타
+comments: true
+typora-root-url: ../
+---
+
+
 # pip install 한 줄로 모듈이 설치되는 원리, 진짜로 이해해보기
 
 개발을 하다 보면 너무나 자연스럽게 사용하는 명령어 중 하나가 `pip install`. 예를 들어:
