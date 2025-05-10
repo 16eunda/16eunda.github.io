@@ -9,7 +9,6 @@ comments: true
 typora-root-url: ../
 ---
 
-
 # pip install 한 줄로 모듈이 설치되는 원리, 진짜로 이해해보기
 
 개발을 하다 보면 너무나 자연스럽게 사용하는 명령어 중 하나가 `pip install`. 예를 들어:
@@ -71,6 +70,7 @@ print(sys.path)
 이 리스트를 순차적으로 탐색해서 `schedule`이라는 모듈이 들어 있는 폴더를 찾는다. `pip install`로 설치된 모듈은 이 경로 중 하나인 `site-packages`에 들어가기 때문에 바로 인식이 되는 것이다.
 
 예시 경로:
+
 ```
 C:\Users\사용자\AppData\Local\Programs\Python\Python311\Lib\site-packages
 ```
